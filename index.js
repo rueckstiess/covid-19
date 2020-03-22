@@ -6,7 +6,7 @@ const CONFIRMED_FILE = "2019-nCoV/csse_covid_19_data/csse_covid_19_time_series/t
 const DEAD_FILE = "2019-nCoV/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv";
 const RECOVERED_FILE = "2019-nCoV/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv";
 const MONGO_URI =
-  "mongodb+srv://admin:bjAWr0oUy5m1n0Vh@coronacluster-eydl1.mongodb.net/test?retryWrites=true&w=majority";
+  "mongodb+srv://admin:<password>@coronacluster-eydl1.mongodb.net/test?retryWrites=true&w=majority";
 const DATABASE_NAME = "coronavirus_thomas";
 
 
