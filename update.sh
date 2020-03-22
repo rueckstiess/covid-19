@@ -1,0 +1,1 @@
+cd 2019-nCoV && git pull && cd .. && node index.js
