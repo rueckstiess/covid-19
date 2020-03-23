@@ -35,5 +35,5 @@ Datasets that change over time and warrant frequent updates should have an `impo
 [github-covid19-jhu]: https://github.com/CSSEGISandData/COVID-19
 [dollar-out]: https://docs.mongodb.com/manual/reference/operator/aggregation/out/index.html
 
-[jhu_csse-dataset]: (./datasets/jhu_csse)
-[population-dataset]: (./datasets/population)
+[jhu_csse-dataset]: ./jhu_csse
+[population-dataset]: ./population
