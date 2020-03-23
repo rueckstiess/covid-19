@@ -12,7 +12,7 @@ An [announcement on their repo][data-change-announcement] was made recently to i
 
 In the future, we should also consider what other data from the JHU repo might be of interest, e.g. the daily reports. 
 
-### Schema 
+## Schema 
 
 The data is stored in the `coronavirus_thomas.statistics` collection with the following schema: 
 
@@ -32,3 +32,14 @@ The data is stored in the `coronavirus_thomas.statistics` collection with the fo
 [csse-daily-reports]: https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
 [csse-timeseries]: https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series
 [data-change-announcement]: https://github.com/CSSEGISandData/COVID-19/issues/1250
+
+
+## Data Import
+
+Data import is currently manually. To import the data, run the following commands from the `jhu_csse` folder:
+
+1. Install some additional packages used for parsing: `npm install`
+2. Clone the COVID-19 repo from JHU: `git clone https://github.com/CSSEGISandData/COVID-19.git`
+3. Now run the import script, passing the password as environment variable: `COVID_CLUSTER_PW=<password> node import.js`
+
+
