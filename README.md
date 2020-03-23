@@ -1,12 +1,20 @@
-# Data collection, processing and visualization of COVID-19
+# COVID-19 Dashboard
+
+### Data collection, processing and visualization of COVID-19.
 
 This project started as a simple [MongoDB Charts dashboard][public-dashboard] (full disclosure, I work on MongoDB Charts) to track and visualise the [data][github-covid19-jhu] made available by Johns Hopkins University. 
 
-Given the rapid escalation of the situation, I want to dedicate some time and extend this to collect additional datasets form different sources and make them available for visualization. 
+Given the rapid escalation of the situation, I want to dedicate some time and extend this to collect additional datasets from different sources and make them available for visualization. 
 
 ## Contributors
 
 I welcome any contributions, part of the work ahead will actually be to figure out how people can contribute in meaningful ways. Please let me know if you're interested and we can work something out. 
+
+## Usage as a consumer of the data
+
+If you are interested in accessing the MongoDB cluster directly for your own projects, I can provide a read-only user account. Let me know. 
+
+If you'd like to create your own charts (they can also be embedded in websites) or dashboards, I can send you an invitation to the MongoDB Atlas project. 
 
 ## Data
 
