@@ -1,4 +1,4 @@
-# COVID-19 Dashboard
+# COVID-19 Data & Visualization
 
 ### Data collection, processing and visualization of COVID-19.
 
