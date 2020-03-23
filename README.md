@@ -26,7 +26,7 @@ If you'd like to create your own charts (they can also be embedded in websites) 
 ## Links / Resources
 
 - [Public Coronavirus dashboard][public-dashboard]
-
+- [JHU Github Repo][github-covid19-jhu]
 
 
 [public-dashboard]: https://charts.mongodb.com/charts-coronavirus-dashboard-yamfx/public/dashboards/4b328ffa-ba5d-435e-af11-b39fc974e47a
