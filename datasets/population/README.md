@@ -13,7 +13,10 @@ Population data for most countries from 2019, as well as country area and densit
 
 ## Data Import
 
+Run the following (replacing `<password>` before):
+```
 mongoimport --uri "mongodb+srv://admin:<password>@coronacluster-eydl1.mongodb.net/covid19" -c population_original population.json --jsonArray --drop
+```
 
 ## Transformation
 
