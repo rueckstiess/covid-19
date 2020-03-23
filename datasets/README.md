@@ -10,7 +10,7 @@ They offer a number of different files:
 - [CSSE timeseries data][csse-daily-reports]
 
 Right now the import script only considers the CSSE timeseries data, and only the `time_series_19-covid-Confirmed.csv`, `time_series_19-covid-Deaths.csv` and `time_series_19-covid-Recovered.csv` files.
-An [announcement on their repo][data-change-announcement] was made recently to introduce some changes. Issue #1 is going to deal with these changes.
+An [announcement on their repo][data-change-announcement] was made recently to introduce some changes. [Issue #1](https://github.com/rueckstiess/covid-19/issues/1) is going to deal with these changes.
 
 In the future, we should also consider what other data from the JHU repo might be of interest, e.g. the daily reports. 
 
