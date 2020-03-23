@@ -14,6 +14,22 @@ An [announcement on their repo][data-change-announcement] was made recently to i
 
 In the future, we should also consider what other data from the JHU repo might be of interest, e.g. the daily reports. 
 
+### Schema 
+
+The data is stored in the `coronavirus_thomas.statistics` collection with the following schema: 
+
+- `_id`: ObjectID
+- `Province/State`: String
+- `Country/Region`: String
+- `Lat`: Number
+- `Long`: Number
+- `date`: Date
+- `confirmed`: Number
+- `dead`: Number
+- `recovered`: Number
+- `importDate`: Date (this field is added by the import script)
+
+
 [who-timeseries]: https://github.com/CSSEGISandData/COVID-19/blob/master/who_covid_19_situation_reports/who_covid_19_sit_rep_time_series/who_covid_19_sit_rep_time_series.csv
 [csse-daily-reports]: https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
 [csse-timeseries]: https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series
