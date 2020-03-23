@@ -1,6 +1,4 @@
-# Datasets
-
-## Johns Hopkins University Data
+# Johns Hopkins University Data
 
 The main dataset currently driving the dashboard is the one published and updated daily by Johns Hopkins University, available on the github page https://github.com/CSSEGISandData/2019-nCoV.
 
