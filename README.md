@@ -6,6 +6,12 @@ This project started as a simple [MongoDB Charts dashboard][public-dashboard] (f
 
 Given the rapid escalation of the situation, I want to dedicate some time and extend this to collect additional datasets from different sources and make them available for visualization. 
 
+## Data
+
+The data is currently imported once daily with a manual script that I run. The data is stored in a MongoDB Atlas cluster and used as a data source for the dashboard. 
+
+I'd like to add additional relevant datasets to get a comprehensive view of the situation unfolding. This can include additional information about the infections themselves (age, gender, other circumstances) as well as other secondary information that might be helpful and interesting in this context. I've already added a collection with population, area and density information at a country level. This allows for visualizations showing relative infection rates based on population. 
+
 ## Contributors
 
 I welcome any contributions, part of the work ahead will actually be to figure out how people can contribute in meaningful ways. Please let me know if you're interested and we can work something out. 
@@ -16,11 +22,6 @@ If you are interested in accessing the MongoDB cluster directly for your own pro
 
 If you'd like to create your own charts (they can also be embedded in websites) or dashboards, I can send you an invitation to the MongoDB Atlas project. 
 
-## Data
-
-The data is currently imported once daily with a manual script that I run. The data is stored in a MongoDB Atlas cluster and used as a data source for the dashboard. 
-
-I'd like to add additional relevant datasets to get a comprehensive view of the situation unfolding. This can include additional information about the infections themselves (age, gender, other circumstances) as well as other secondary information that might be helpful and interesting in this context. I've already added a collection with population, area and density information at a country level. This allows for visualizations showing relative infection rates based on population. 
 
 ## Links / Resources
 
