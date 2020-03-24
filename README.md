@@ -6,6 +6,10 @@ This project started as a simple [MongoDB Charts dashboard][public-dashboard] (f
 
 Given the rapid escalation of the situation, I want to dedicate some time and extend this to collect additional datasets from different sources and make them available for visualization. 
 
+
+![](./dashboard-screenshot.png)
+
+
 ## Data
 
 The data is currently imported once daily with a manual script that I run. The data is stored in a MongoDB Atlas cluster and used as a data source for the dashboard. 
