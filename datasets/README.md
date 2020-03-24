@@ -3,7 +3,7 @@
 The main dataset is that provided by Johns Hopkins University in their github repo [COVID-19][github-covid19-jhu]. 
 Other datasets can be added to the cluster and combined for a more complete picture of the situation.
 
-## Overview
+## List of available datasets
 
 The following datasets are currently available:
 
