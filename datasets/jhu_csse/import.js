@@ -1,16 +1,20 @@
 const _ = require("lodash");
 const csv = require("csvtojson");
 const MongoClient = require("mongodb").MongoClient;
+const path = require('path');
 
 const password = process.env["COVID_CLUSTER_PW"];
 
-const CONFIRMED_FILE =
-  "COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv";
-const DEAD_FILE =
-  "COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv";
-const RECOVERED_FILE =
-  "COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv";
-const MONGO_URI = `mongodb+srv://admin:${password}@coronacluster-eydl1.mongodb.net/test?retryWrites=true&w=majority`;
+const CONFIRMED_FILE = path.join(
+  __dirname,
+  "COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
+);
+const DEAD_FILE = path.join(
+  __dirname,
+  "COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
+);
+
+  const MONGO_URI = `mongodb+srv://admin:${password}@coronacluster-eydl1.mongodb.net/test?retryWrites=true&w=majority`;
 const DATABASE_NAME = "covid19";
 const COLLECTION_NAME = "jhu_csse";
 
